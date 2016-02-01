@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <conio.h>
+#include <hw1.h>
 
 int string_length(char*);
 char reverse_string(char* str,int length);
