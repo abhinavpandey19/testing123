@@ -6,7 +6,7 @@ char reverse_string(char* str,int length);
 
 main()
 {
-    char string[10];
+    char string[100];
     printf("Enter a string\n");
     gets(string);
     int length=string_length(string);
@@ -15,7 +15,7 @@ main()
         printf("Not enough characters\n");
         }
     else
-    if(length>10)
+    if(length>100)
         {   
         printf("Too many characters\n");
         }
