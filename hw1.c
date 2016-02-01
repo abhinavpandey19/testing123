@@ -21,7 +21,7 @@ main()
     else
         {
         reverse_string(string, length);
-        printf("REverse of entered string is %s \n", string);
+        printf("Reverse of entered string is %s \n", string);
         return 0;
         }
     }
